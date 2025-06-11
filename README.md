@@ -20,4 +20,6 @@ This is a setup template for a react-router with both client and server within t
    - react-router auth and rbac
  - websocket simple implementation
  - data persistence (postgres | mongodb | dynamodb)
+ - test, pr checks, linting ..
+   - Jest and or React Testing Library
 
