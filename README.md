@@ -9,6 +9,15 @@ This is a setup template for a react-router with both client and server within t
  - inital express api calls with json
 
 **What's not here:**
- - no server login implemenation (TODO: JWT login on server)
- - react-router auth and rbac
- - no client jwt implementation TODO
+ - separation of client and server
+ - creation of docker file
+ - creation of yml build GH action file 
+   - for aws deploy
+
+*MORE Todos:*
+ - server login implemenation (JWT login on server)
+ - client jwt implementation
+   - react-router auth and rbac
+ - websocket simple implementation
+ - data persistence (postgres | mongodb | dynamodb)
+
