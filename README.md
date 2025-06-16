@@ -14,14 +14,16 @@ This is a setup template for a react-router with both client and server within t
  - creation of yml build GH action file 
    - for aws deploy
 
-*MORE Todos:*
+**MORE Todos:**
  - server login implemenation (JWT login on server)
  - client jwt implementation
    - react-router auth and rbac
  - websocket simple implementation
+   - use case real time push data analytics notifications, chat .. 
  - data persistence (postgres | mongodb | dynamodb)
- - Context API
+   - Prisma, dynamoose, mongoose.. 
+ - Context API (auth, users ..)
  - Mock API data for tests
- - test, pr checks, linting ..
-   - Jest and or React Testing Library
+ - test, e2e (cypress) pr checks, linting ..
+   - Jest and or React Testing Library (storyboard)
 
